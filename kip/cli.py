@@ -89,9 +89,6 @@ else:
 def main(argv=None):
     """Start here"""
 
-    if not argv:
-        argv = sys.argv
-
     args = parseargs()
     if not args:
         return 1
